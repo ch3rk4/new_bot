@@ -23,26 +23,114 @@
     }
   },
   "intents" : [ {
-    "path" : "/пока",
+    "path" : "/Новый интен",
     "enabled" : true,
     "shared" : false,
-    "phrases" : [ {
-      "text" : "пока"
-    } ],
+    "phrases" : [ ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
     "priority" : 0
   }, {
-    "path" : "/привет",
+    "path" : "/hello",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
       "text" : "привет"
+    }, {
+      "text" : "приветик"
+    }, {
+      "text" : "здравствуй"
+    }, {
+      "text" : "здравствуйте"
+    }, {
+      "text" : "добрый день"
+    }, {
+      "text" : "доброе утро"
+    }, {
+      "text" : "добрый вечер"
+    }, {
+      "text" : "хай"
+    }, {
+      "text" : "hello"
+    }, {
+      "text" : "начать"
+    }, {
+      "text" : "старт"
     } ],
     "classificationRules" : {
       "refs" : [ ]
     },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/currency",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "курс"
+    }, {
+      "text" : "курс валют"
+    }, {
+      "text" : "валюта"
+    }, {
+      "text" : "валюты"
+    }, {
+      "text" : "доллар"
+    }, {
+      "text" : "курс доллара"
+    }, {
+      "text" : "сколько стоит доллар"
+    }, {
+      "text" : "евро"
+    }, {
+      "text" : "курс евро"
+    }, {
+      "text" : "сколько стоит евро"
+    }, {
+      "text" : "какой курс"
+    }, {
+      "text" : "обмен валют"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/weather",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "погода"
+    }, {
+      "text" : "какая погода"
+    }, {
+      "text" : "какая сегодня погода"
+    }, {
+      "text" : "погода сегодня"
+    }, {
+      "text" : "прогноз"
+    }, {
+      "text" : "прогноз погоды"
+    }, {
+      "text" : "расскажи о погоде"
+    }, {
+      "text" : "что с погодой"
+    }, {
+      "text" : "что на улице"
+    }, {
+      "text" : "температура"
+    }, {
+      "text" : "какая температура"
+    }, {
+      "text" : "будет дождь"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
