@@ -1,40 +1,55 @@
 theme: /
 
     state: Start
-        q!: hello
         q!: привет
+        go!: /hello
         q!: здравствуй
+        go!: /hello
         q!: здравствуйте
+        go!: /hello
         q!: добрый день
+        go!: /hello
+        q!: hello
+        go!: /hello
         q!: hi
+        go!: /hello
         q!: помощь
-        q!: что ты умеешь
-        q!: бот
         go!: /hello
 
-        q!: weather
         q!: погода
+        go!: /weather
         q!: погоду
-        q!: о погоде
+        go!: /weather
         q!: какая погода
-        q!: прогноз
+        go!: /weather
+        q!: расскажи погоду
+        go!: /weather
+        q!: расскажи о погоде
+        go!: /weather
         q!: прогноз погоды
+        go!: /weather
         q!: температура
-        q!: какая температура
-        q!: сколько градусов
-        q!: forecast
+        go!: /weather
+        q!: weather
         go!: /weather
 
-        q!: currency
         q!: курс
+        go!: /currency
         q!: курс валют
+        go!: /currency
         q!: валюта
+        go!: /currency
         q!: валюты
+        go!: /currency
         q!: курс доллара
+        go!: /currency
         q!: доллар
+        go!: /currency
         q!: курс евро
+        go!: /currency
         q!: евро
-        q!: exchange
+        go!: /currency
+        q!: currency
         go!: /currency
 
     state: hello
