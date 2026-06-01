@@ -1,6 +1,7 @@
 theme: /
 
     state: hello
+        q!: $regexp<^\/hello$>
         q!: hello
         q!: привет
         q!: здравствуй
@@ -13,6 +14,7 @@ theme: /
         a: Привет! Я бот-помощник. Могу рассказать о погоде и курсах валют.
 
     state: weather
+        q!: $regexp<^\/weather$>
         q!: weather
         q!: погода
         q!: какая погода
@@ -25,6 +27,7 @@ theme: /
         a: Сейчас расскажу о погоде. Уточните город, для которого нужен прогноз.
 
     state: currency
+        q!: $regexp<^\/currency$>
         q!: currency
         q!: курс валют
         q!: валюта
