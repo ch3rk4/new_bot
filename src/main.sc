@@ -1,50 +1,51 @@
 theme: /
 
     state: Start
+        a: Привет! Я бот-помощник. Могу рассказать о погоде и курсах валют. Напишите: погода или курс валют.
+
+        q!: /hello
         q!: привет
-        go!: /hello
         q!: здравствуй
-        go!: /hello
         q!: здравствуйте
-        go!: /hello
         q!: добрый день
-        go!: /hello
         q!: hello
-        go!: /hello
         q!: hi
+        q!: помощь
+        q!: что ты умеешь
+        q!: бот
         go!: /hello
 
+        q!: /weather
         q!: погода
-        go!: /weather
         q!: погоду
-        go!: /weather
+        q!: о погоде
         q!: какая погода
-        go!: /weather
-        q!: прогноз погоды
-        go!: /weather
+        q!: какая сегодня погода
+        q!: расскажи погоду
         q!: расскажи о погоде
-        go!: /weather
+        q!: прогноз
+        q!: прогноз погоды
+        q!: погода сегодня
         q!: температура
-        go!: /weather
+        q!: какая температура
+        q!: сколько градусов
         q!: weather
+        q!: forecast
         go!: /weather
 
+        q!: /currency
+        q!: курс
         q!: курс валют
-        go!: /currency
-        q!: курс валюты
-        go!: /currency
+        q!: валют
         q!: валюта
-        go!: /currency
         q!: валюты
-        go!: /currency
         q!: курс доллара
-        go!: /currency
         q!: доллар
-        go!: /currency
         q!: курс евро
-        go!: /currency
         q!: евро
-        go!: /currency
+        q!: сколько стоит доллар
+        q!: сколько стоит евро
+        q!: exchange
         q!: currency
         go!: /currency
 
@@ -59,4 +60,4 @@ theme: /
 
     state: NoMatch
         event!: noMatch
-        a: Я не понял запрос. Я могу помочь с погодой или курсом валют.
+        a: Я не понял запрос. Я могу помочь с погодой или курсом валют. Напишите: погода или курс валют.
